@@ -8,5 +8,10 @@ window.onload = function() {
 //Addinng an item to the list
 
 const addingAnItem = function() {
+let addItems = prompt("What do you want to add?");
+if (addItems == null) {
 
+} else {
+
+}
 }
