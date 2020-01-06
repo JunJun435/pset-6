@@ -1,5 +1,5 @@
  body {
-  background-color: MidnightBlue;
+  background-color: Orange;
 }
 hr{
   margin-top: 51px;
@@ -54,11 +54,11 @@ table {
     align: left;
     width: 40px;
     text-align: center;
-    background-color: Orange;
+    background-color: Green;
     border: 2px solid;
 }
 .complete_button:hover {
-    background-color: MidnightBlue;
+    background-color: Orange;
 }
 .remove_button {
     align: left;
@@ -68,7 +68,7 @@ table {
     border: 2px solid;
 }
 .remove_button:hover {
-    background-color: MidnightBlue;
+    background-color: Orange;
 }
 .input {
   text-align: center;
