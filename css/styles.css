@@ -7,7 +7,7 @@ hr{
 .title {
   font-family: georgia;
   font-size: 50px;
-  color: white;
+  color: black;
   width: 500px;
   text-align: center;
   margin-left: auto;
@@ -17,7 +17,7 @@ hr{
   text-align: center;
   font-family: georgia;
   font-size: 30px;
-  color: white;
+  color: black;
 }
 table {
     margin-bottom: auto;
@@ -54,11 +54,11 @@ table {
     align: left;
     width: 40px;
     text-align: center;
-    background-color: Green;
+    background-color: green;
     border: 2px solid;
 }
 .complete_button:hover {
-    background-color: Orange;
+    background-color: grey;
 }
 .remove_button {
     align: left;
@@ -68,7 +68,7 @@ table {
     border: 2px solid;
 }
 .remove_button:hover {
-    background-color: Orange;
+    background-color: grey;
 }
 .input {
   text-align: center;
