@@ -131,7 +131,7 @@ const finish_item = function() {
        if (elements[x].complete == false) {
          finish = true;
          list_item[x].style.setProperty("text-decoration", "line-through");
-         list_item[x].style.backgroundColor = "Orange";
+         list_item[x].style.backgroundColor = "Grey";
          complete_button[x].style.backgroundColor = "Orange";
          elements[x].complete = true;
        }
