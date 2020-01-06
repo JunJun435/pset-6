@@ -1,0 +1,53 @@
+ 
+body {
+  background-color: MidnightBlue;
+}
+hr{
+  margin-top: 51px;
+}
+.title {
+  font-family: georgia;
+  font-size: 50px;
+  color: white;
+  width: 500px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.todo_header{
+  text-align: center;
+  font-family: georgia;
+  font-size: 30px;
+  color: white;
+}
+table {
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    margin-top: 22px;
+    border-spacing: 10px;
+    background-color: black;
+    font-family: sans-serif;
+}
+.to_do {
+  font-family: serif;
+  text-align: center;
+  border: 2px solid;
+  background-color: white;
+  font-size: 25px;
+}
+}
+.row {
+    margin-top: 20px;
+    height: 40px;
+}
+.priority_button {
+    width: 40px;
+    text-align: center;
+    background-color: white;
+    border: 2px solid;
+}
+.priority_button:hover {
+    background-color: yellow;
+}
