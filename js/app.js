@@ -131,12 +131,12 @@ const finish_item = function() {
        if (elements[x].complete == false) {
          finish = true;
          list_item[x].style.setProperty("text-decoration", "line-through");
-         list_item[x].style.backgroundColor = "Grey";
-         complete_button[x].style.backgroundColor = "Orange";
+         list_item[x].style.backgroundColor = "grey";
+         complete_button[x].style.backgroundColor = "grey";
          elements[x].complete = true;
        }
        else if (elements[x].complete == true) {
-         complete_button[x].style.backgroundColor = "white";
+         complete_button[x].style.backgroundColor = "green";
          list_item[x].style.setProperty("text-decoration", "none");
          list_item[x].style.backgroundColor = "white";
          elements[x].complete = false;
