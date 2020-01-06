@@ -1,5 +1,4 @@
- 
-body {
+ body {
   background-color: MidnightBlue;
 }
 hr{
@@ -70,4 +69,25 @@ table {
 }
 .remove_button:hover {
     background-color: MidnightBlue;
+}
+.input {
+  text-align: center;
+  width: 400px;
+  height: 20px;
+  font-family: serif;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.user_input {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.button_add {
+  width: 100px;
+  border-radius:70px;
+  font-family: serif;
+  font-size: 20px;
+  margin-top: 10px;
 }
