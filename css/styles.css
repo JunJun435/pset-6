@@ -51,3 +51,23 @@ table {
 .priority_button:hover {
     background-color: yellow;
 }
+.complete_button {
+    align: left;
+    width: 40px;
+    text-align: center;
+    background-color: Orange;
+    border: 2px solid;
+}
+.complete_button:hover {
+    background-color: MidnightBlue;
+}
+.remove_button {
+    align: left;
+    width: 40px;
+    text-align: center;
+    background-color: red;
+    border: 2px solid;
+}
+.remove_button:hover {
+    background-color: MidnightBlue;
+}
