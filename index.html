@@ -1,21 +1,25 @@
 <!DOCTYPE html>
 
 <html>
-  <head>
-      <title>To-Do-List App</title>
+	<head>
+		<title>To Do List</title>
+		<link rel="stylesheet" href="css/styles.css">
+	</head>
 
-      <!-- stylesheets & Scripts -->
-      <link rel="stylesheet" href="css/styles.css" />
-      <script type="text/javascript" src="js/app.js"></script>
+	<body>
 
-  </head>
-  <body>
-      <h1><span class="styling">TODO</spam>List</h1>
-      <div class="input_div">
-          <input class="input" type="text" placeholder="What Do You Want to Do ...">
-          <button class="addButton"><i class="fas fa-plus"></i></button>
-      </div>
-      <div class="container">
-          <div class="item">
-              <input
-      
+			<h1 class="title">To-Do List</h1>
+			<hr>
+			<h1 class="todo_header">What do you want to add?</h1>
+
+			<div class="input">
+				<input type="text" class="input" id="input_item">
+				<button class="button_add" id="add_button">Add</button>
+			</div>
+      <hr>
+			<table id="table"></table>
+
+			<script type="text/javascript" src="js/app.js"></script>
+
+	</body>
+  </html>
