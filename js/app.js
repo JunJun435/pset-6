@@ -13,3 +13,51 @@ window.onload = function() {
   document.getElementById("table").onmouseover = startup;
 }
 
+const create_item = function() {
+  let input = document.getElementById("input_item").value;
+  if (input === "") {
+  }
+  else {
+      let to_do = {
+          task: input,
+          priority: false,
+          complete: false,
+          html_priority_button: null,
+          html_text: null,
+          html_row: null,
+          html_remove_button: null
+      }
+      elements.push(to_do);
+      let index = elements.indexOf(to_do);
+
+      elements[index].htmlRow = document.createElement("tr");
+      elements[index].htmlRow.setAttribute("class", "row");
+      document.getElementById("table").append(elements[index].htmlRow);
+
+      elements[index].htmlPriorityButton = document.createElement("td");
+      elements[index].htmlPriorityButton.setAttribute("class", "priority_button");
+      elements[index].htmlPriorityButton.innerHTML = "!";
+
+      row[index].append(elements[index].htmlPriorityButton);
+
+      elements[index].htmlText = document.createElement("td");
+      elements[index].htmlText.innerHTML = elements[index].task;
+      elements[index].htmlText.setAttribute("class", "to_do");
+
+      row[index].append(elements[index].htmlText);
+
+      elements[index].htmlCompleteButton = document.createElement("td");
+      elements[index].htmlCompleteButton.innerHTML = "&#x2713;";
+      elements[index].htmlCompleteButton.setAttribute("class", "complete_button");
+
+      row[index].append(elements[index].htmlCompleteButton);
+
+      elements[index].htmlRemoveButton = document.createElement("td");
+      elements[index].htmlRemoveButton.setAttribute("class", "remove_button");
+      elements[index].htmlRemoveButton.innerHTML = "X";
+
+      row[index].append(elements[index].htmlRemoveButton);
+    }
+    document.getElementById("input_item").value = "";
+};
+
